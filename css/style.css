@@ -19,6 +19,11 @@ body {
   max-width: 60rem;
 } */
 
+.container-profil {
+  position: relative;
+  min-height: 100vh;
+}
+
 h2,
 h1 {
   color: #3b9ed3;
@@ -48,6 +53,7 @@ ul.mynav {
   top: 0;
   width: 100%;
   background-color: #526723;
+  z-index: 9999;
 }
 
 ul.mynav li {
@@ -76,6 +82,11 @@ ul.mynav li.right {
 
 .mynav .icon {
   display: none;
+}
+
+.container-sekolah {
+  position: relative;
+  min-height: 100vh;
 }
 
 @media screen and (max-width: 600px) {
