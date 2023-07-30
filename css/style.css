@@ -24,6 +24,17 @@ body {
   min-height: 100vh;
 }
 
+.home,
+.kontak {
+  min-height: 100vh;
+}
+
+.about {
+  background-color: #526723;
+  min-height: 100vh;
+  /* margin-top: 45rem; */
+}
+
 h2,
 h1 {
   color: #3b9ed3;
